@@ -28,8 +28,8 @@ uint32_t autoParams[][4] = {   // color, speed, mode, duration (seconds)
 
   const char mqtt_clientid[] = "ESP8266Client"; // MQTT ClientID
 
-  char mqtt_host[64] = "";
-  char mqtt_port[6] = "";
+  char mqtt_host[64] = "192.168.1.113";
+  char mqtt_port[6] = "1883";
   char mqtt_user[32] = "";
   char mqtt_pass[32] = "";
 #endif
